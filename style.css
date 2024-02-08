@@ -89,9 +89,10 @@ main{
     background-color: #00CCB1;
     border-radius: 20px;
     padding: 45px;
+    padding-bottom: 30px;
     font-family: 'Roboto', sans-serif;
     font-weight: 300;
-    font-size: 21.5px;
+    font-size: 20px;
     letter-spacing: 0.5px;
     text-wrap: balance;
     line-height: 25px;
@@ -102,9 +103,10 @@ main{
     background-color: #3D83DF;
     border-radius: 20px;
     padding: 45px;
+    padding-bottom: 30px;
     font-family: 'Roboto', sans-serif;
     font-weight: 300;
-    font-size: 21.5px;
+    font-size: 20px;
     letter-spacing: 0.5px;
     text-wrap: balance;
     line-height: 25px;
@@ -115,9 +117,10 @@ main{
     background-color: #1B2734;
     border-radius: 20px;
     padding: 45px;
+    padding-bottom: 30px;
     font-family: 'Roboto', sans-serif;
     font-weight: 300;
-    font-size: 21.5px;
+    font-size: 20px;
     letter-spacing: 0.5px;
     text-wrap: balance;
     line-height: 25px;
@@ -129,7 +132,27 @@ main{
     font-size: 30px;
 }
 
-.selectOption{
+.selectCountry{
+    margin-top: 90px;
+}
+.selectCountry select{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    letter-spacing: 0.5px;
     background-color: none;
-    border: none;
+}
+
+.selectSpecialists{
+    margin-top: 32px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.selectSpecialists select{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    letter-spacing: 0.5px;
 }
