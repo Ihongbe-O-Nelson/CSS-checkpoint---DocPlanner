@@ -93,7 +93,7 @@ main{
     font-family: 'Roboto', sans-serif;
     font-weight: 300;
     font-size: 20px;
-    letter-spacing: 0.5px;
+    letter-spacing: 0.8px;
     text-wrap: balance;
     line-height: 25px;
     color: white;
@@ -107,7 +107,7 @@ main{
     font-family: 'Roboto', sans-serif;
     font-weight: 300;
     font-size: 20px;
-    letter-spacing: 0.5px;
+    letter-spacing: 0.8px;
     text-wrap: balance;
     line-height: 25px;
     color: white;
@@ -121,7 +121,7 @@ main{
     font-family: 'Roboto', sans-serif;
     font-weight: 300;
     font-size: 20px;
-    letter-spacing: 0.5px;
+    letter-spacing: 0.8px;
     text-wrap: balance;
     line-height: 25px;
     color: white;
@@ -155,4 +155,42 @@ main{
     font-weight: 300;
     font-size: 20px;
     letter-spacing: 0.5px;
+}
+
+#PNGs{
+    display: flex;
+    gap: 300px;
+    margin-top: 40px;
+}
+
+#PNGs p{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 24px;
+    letter-spacing: 0.85px;
+    color: #00B39B;
+    line-height: 35px;
+    /* text-wrap: balance; */
+    /* background-color: #1B2734; */
+    width: 210px;
+}
+
+.PNGs{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.PNGs div{
+    display: flex;
+    gap: 70px;
+}
+
+.PNGs div img{
+    width: 80px;
+    height: auto;
+}
+.PNGs img{
+    width: 80px;
+    height: auto;
 }
