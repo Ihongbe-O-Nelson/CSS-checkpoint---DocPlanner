@@ -253,7 +253,7 @@ main{
     gap: 25px;
 }
 #left img{
-    margin-top:55px;
+    margin-top: 55px;
 }
 #shortNote{
     font-family: 'Roboto', sans-serif;
@@ -261,4 +261,24 @@ main{
     font-size: 14.5px;
     color: #747474;
     letter-spacing: 1px;
+}
+
+#improveMillions{
+    margin-top: 75px;
+    text-align: center;
+}
+
+.grid{
+    margin-top: 140px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+}
+.gridItems{
+    background-color: white;
+    border-radius: 20px;
+}
+.gridItems div{
+    display: flex;
+    justify-content: space-between;
 }
