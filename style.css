@@ -276,9 +276,50 @@ main{
 }
 .gridItems{
     background-color: white;
-    border-radius: 20px;
+    border-radius: 10px;
 }
+
+.gridItems:hover{
+    box-shadow: 0 0 10px rgba(87, 87, 87, 0.5);
+}
+
 .gridItems div{
+    margin-top: 5px;
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 14.5px;
+    color: #747474;
+    padding-inline: 22px;
+}
+
+button{
+    background-color: #3D83DF;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 10px;
+    font-weight: 700;
+}
+button:hover{
+    cursor: pointer;
+}
+
+#closingDIV{
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+    align-items: center;
+}
+#closingDIV p{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 30px;
+}
+#closingDIV button{
+    font-size: 12px;
+    font-weight: 700;
 }
